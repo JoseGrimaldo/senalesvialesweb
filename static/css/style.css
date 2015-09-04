@@ -8,11 +8,16 @@
     line-height: 60px;
     color: white;
     font-style: italic;
+    padding-left: 15px;
+}
+
+.u-tituloSeccion::before{
+    content: "[Aqui van signos]";
 }
 
 
 body{
-    background: lightgray;
+    background: whitesmoke;
 }
 
 .Header{
@@ -20,7 +25,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
-    height: 766px;
+    height: 100vh;
 }
 
 .Header-slogan{
@@ -50,4 +55,208 @@ body{
     text-decoration: none;
     font-size: 20px;
     font-style: italic;
+}
+
+.nosotros-imagenCabecera{
+    width: 100%;
+    height: auto;
+}
+
+.nosotros-informacion{
+    text-align: justify;
+    padding: 10px 15px;
+    color: #00378A;
+}
+
+.nosotros-valores{
+    display: flex;
+}
+
+.nosotros-vision{
+    padding: 15px;
+}
+
+.nosotros-vision h2{
+    text-align: center;
+    height: 60px;
+    background: #00378A;
+    line-height: 60px;
+    color: white;
+    font-style: italic;
+}
+
+.nosotros-vision h2::after{
+    content: "[Signos]";
+}
+
+.nosotros-vision p{
+    text-align: justify;
+    background: #BF0310;
+    color: white;
+    padding: 5px;
+}
+
+.nosotros-mision{
+    padding: 15px;
+    
+}
+
+.nosotros-mision h2{
+    text-align: center;
+    height: 60px;
+    background: #00378A;
+    line-height: 60px;
+    color: white;
+    font-style: italic;
+}
+
+.nosotros-mision h2::before{
+    content: "[Signos]";
+}
+
+.nosotros-mision p{
+    text-align: justify;
+    background: #BF0310;
+    color: white;
+    padding: 5px;
+}
+
+.servicios-container{
+    display: flex;
+}
+
+.servicios-senales{
+    background-image: url(../img/senales.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    border: 1px solid whitesmoke;
+}
+
+.servicios-senales p,h2{
+    margin: 0;
+    padding: 0;
+}
+
+.senales-container{
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px;
+}
+
+.servicios-semaforizacion{
+    background-image: url(../img/semaforizacion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 602px;
+    border: 1px solid whitesmoke;
+}
+
+.servicios-semaforizacion p,h2{
+    margin: 0;
+    padding: 0;
+}
+
+.semaforizacion-container{
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px;
+}
+
+.servicios-pintura{
+    background-image: url(../img/pintura.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    border: 1px solid whitesmoke;
+}
+
+.servicios-pintura p, h2{
+    margin: 0;
+    padding: 0;
+}
+
+.pintura-container{
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    padding: 15px;
+}
+
+.Contacto{
+    background:dimgray;
+}
+
+.contacto-imagen{
+    display: block;
+    width: 10%;
+    height: auto;
+    margin: auto;
+}
+
+.contacto-formulario{
+    padding: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+   
+}
+
+.contacto-formulario-item{
+    background-color: #333;
+    border:none;
+    border-bottom: 15px solid black;
+    height: 60px;
+    color: white;
+    text-align: center;
+    margin-bottom: 15px;
+    font-style: italic;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.contacto-formulario-submit{
+    height: 50px;
+    line-height: 50px;
+    color: black;
+    border:none;
+    border-radius: none;
+    width: 40%;
+    margin: 15px auto;
+}
+
+@media(max-width:600px){
+    .contacto-formulario-submit{
+        width: 100%;
+        color: black;
+    }
+}
+ 
+.map{
+    height: 400px;
+}
+
+.Footer{
+    background: #BF0310;
+    color: white;
+}
+
+.Footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Footer-itemInfo{
+    text-align: center;
+}
+
+.Footer-developer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 15px 50px;
 }

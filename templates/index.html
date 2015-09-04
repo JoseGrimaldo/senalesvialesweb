@@ -33,67 +33,85 @@
     <section class="Nosotros">
         <header class="u-cabeceraSeccion">
             <h1 class="u-tituloSeccion">Nosotros</h1>
-            <img src="..." alt="header-nosotros">
+            <img src="../static/img/nosotros-header.jpg" alt="header-nosotros" class="nosotros-imagenCabecera">
         </header>
-        <article>
+        <article class="nosotros-informacion">
             <p>Somos una empresa ubicada en la ciudad de Guadalupe, Nuevo León, especializada en el campo de la señalizacion vial, semaforización, asi como también en publicidad.  En Señales Viales y Publicidad, nos complacemos en atender a todos nuestros clientes con la mejor actitud de servicio, siendo proveedores de un producto de primera clase, con precios accesibles e inmejorables. Trabajamos con material de la mejor calidad, tambien contamos con un equipo de trabajo siempre dispuesto a producir productos qe excedan las expectativas de cada cliente.</p>
         </article>
-        <article>
-            <h2>Mision</h2>
-            <p>Comprometernos con nuestros clientes a darles soluciones de calidad, efectivas en menos tiempo y a un precio justo. Crecer dia a dia, tanto individualmente como parte de la empresa.</p>
-        </article>
-        <article>
-            <h2>Visión</h2>
-            <p>Ser una empresa lider en el campo de la señalizacion vial, cumpliendo con normas y estandares de calidad internacional, excediendo las expectativas de nuestros clientes.</p>
-        </article>
+        <div class="nosotros-valores">
+            <article class="nosotros-mision">
+                <h2>Mision</h2>
+                <p>Comprometernos con nuestros clientes a darles soluciones de calidad, efectivas en menos tiempo y a un precio justo. Crecer dia a dia, tanto individualmente como parte de la empresa.</p>
+            </article>
+            <article class="nosotros-vision">
+                <h2>Visión</h2>
+                <p>Ser una empresa lider en el campo de la señalizacion vial, cumpliendo con normas y estandares de calidad internacional, excediendo las expectativas de nuestros clientes.</p>
+            </article>
+        </div>
     </section>
-    <section>
-        <header>
-            <h1>Servicios</h1>
+    <section class="Servicios">
+        <header class="u-cabeceraSeccion">
+            <h1 class="u-tituloSeccion">Servicios</h1>
         </header>
-        <article>
-            <h2>Semaforización</h2>
-            <p>Manejamos lo mas actual en tecnologia vial e inovamos dia con dia para estar a la vanguardia de las necesidades de cada cliente.</p>
-        </article>
-        <article>
-            <h2>Señalizacion</h2>
-            <p>Fabricamos señaletica para exteriores e interiores, con materiales de alta calidad y durabilidad, asi como tambien la instalacion de estas.</p>
-        </article>
-        <article>
-            <h2>Pintura Vial</h2>
-            <p>Aplicacion de pintura para asfalto en todas sus variantes ya sea tipo tráfico o thermoplastica con las herramientas adecuadas.</p>
-        </article>
+        <div class="servicios-container">
+            <article class="servicios-semaforizacion">
+                <div class="semaforizacion-container">
+                    <h2>Semaforización</h2>
+                    <p>Manejamos lo mas actual en tecnologia vial e inovamos dia con dia para estar a la vanguardia de las necesidades de cada cliente.</p>
+                </div>
+            </article>
+            <div>
+                <article class="servicios-senales">
+                    <div class="senales-container">
+                        <h2>Señalizacion</h2>
+                        <p>Fabricamos señaletica para exteriores e interiores, con materiales de alta calidad y durabilidad, asi como tambien la instalacion de estas.</p>
+                    </div>
+                </article>
+                <article class="servicios-pintura">
+                    <div class="pintura-container">
+                        <h2>Pintura Vial</h2>
+                        <p>Aplicacion de pintura para asfalto en todas sus variantes ya sea tipo tráfico o thermoplastica con las herramientas adecuadas.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
     </section>
-    <section>
-        <header>
-            <h1>Contacto</h1>
+    <section class="Contacto">
+        <header class="u-cabeceraSeccion">
+            <h1 class="u-tituloSeccion">Contacto</h1>
         </header>
-        <img src="..." alt="contactoImagen">
-        <input type="text" placeholder="Nombre *" />
-        <input type="tel" placeholder="Teléfono *" />
-        <input type="email" placeholder="Email *" />
-        <textarea placeholder="Mensaje *"></textarea>
+        <img src="../static/img/sobre.png" class="contacto-imagen" alt="contactoImagen">
+        <form class="contacto-formulario">
+            <input type="text" placeholder="Nombre *" class="contacto-formulario-item" />
+            <input type="tel" placeholder="Teléfono *" class="contacto-formulario-item" />
+            <input type="email" placeholder="Email *" class="contacto-formulario-item" />
+            <textarea placeholder="Mensaje *" class="contacto-formulario-item"></textarea>
+            <button type="submit" class="contacto-formulario-submit">Enviar Mensaje</button>
+        </form>
     </section>
-    <div>
-    <p>Mapa</p>
-    </div>
-    <footer>
-        <article>
-            <h3>Dirección</h3>
-            <p>Calle Valencia Guadalupe Nuevo Leon</p>
-        </article>
-        <article>
-            <h3>Email</h3>
-            <p>senalesviales_efrain@hotmail.com / svyp_cruz@hotmail.com</p>
-        </article>
-        <article>
-            <h3>Teléfono</h3>
-            <p>(81) 1877-4888 / (81) 2126-4466</p>
-        </article>
-        <span>Aviso de Privacidad</span>
-        <span>Desarrollado por Grafmex</span>
+    <section id="map" class="map"></section>
+    <footer class="Footer">
+        <div class="Footer-container">
+            <article class="Footer-itemInfo">
+                <h3>Dirección</h3>
+                <p>Calle Valencia Guadalupe Nuevo Leon</p>
+            </article>
+            <article class="Footer-itemInfo">
+                <h3>Email</h3>
+                <p>senalesviales_efrain@hotmail.com / svyp_cruz@hotmail.com</p>
+            </article>
+            <article class="Footer-itemInfo">
+                <h3>Teléfono</h3>
+                <p>(81) 1877-4888 / (81) 2126-4466</p>
+            </article>
+        </div>
+        <div class="Footer-developer">
+            <span>Aviso de Privacidad</span>
+            <span>Desarrollado por Grafmex</span>
+        </div>
     </footer>
-    <script src=""></script>
+    <script src="https://maps.googleapis.com/maps/api/js?callback=initMap" async defer></script>
+    <script src="../static/js/maps.js"></script>
 </body>
     
 </html>
