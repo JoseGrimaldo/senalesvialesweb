@@ -5,13 +5,14 @@
     <meta name="description" content="Somos una empresa ubicada en la ciudad de Guadalupe, Nuevo León, especializada en el campo de la señalizacion vial, semaforización, asi como también en publicidad.  En Señales Viales y Publicidad, nos complacemos en atender a todos nuestros clientes con la mejor actitud de servicio, siendo proveedores de un producto de primera clase, con precios accesibles e inmejorables. Trabajamos con material de la mejor calidad, tambien contamos con un equipo de trabajo siempre dispuesto a producir productos qe excedan las expectativas de cada cliente." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Señales Viales</title>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../static/css/normalize.css"/>
     <link rel="stylesheet" href="../static/css/style.css" />
 </head>
 <body>
     <header class="Header">
         <nav class="MainMenu">
+            <img src="../static/img/f2.png" class="MainMenu-img">
             <ul class="MainMenu-list">
                 <li class="MainMenu-item">
                     <a href="#" class="MainMenu-link">Home</a>
@@ -27,8 +28,10 @@
                 </li>
             </ul>
         </nav>
-        <img src="..." alt="imagen-logotipo" />
-        <span class="Header-slogan">Dalo por hecho...</span>
+        <div class="container-slogan">
+            <img src="../static/img/logo.png" alt="imagen-logotipo" class="header-logo"/>
+            <span class="Header-slogan">Dalo por hecho...</span>
+        </div>
     </header>
     <section class="Nosotros">
         <header class="u-cabeceraSeccion">
@@ -85,7 +88,7 @@
             <input type="text" placeholder="Nombre *" class="contacto-formulario-item" />
             <input type="tel" placeholder="Teléfono *" class="contacto-formulario-item" />
             <input type="email" placeholder="Email *" class="contacto-formulario-item" />
-            <textarea placeholder="Mensaje *" class="contacto-formulario-item"></textarea>
+            <textarea rows="2" placeholder="Mensaje *" class="contacto-formulario-texto"></textarea>
             <button type="submit" class="contacto-formulario-submit">Enviar Mensaje</button>
         </form>
     </section>
