@@ -1,0 +1,53 @@
+.u-cabeceraSeccion{
+    
+}
+
+.u-tituloSeccion{
+    height: 60px;
+    background: #00378A;
+    line-height: 60px;
+    color: white;
+    font-style: italic;
+}
+
+
+body{
+    background: lightgray;
+}
+
+.Header{
+    background-image: url(../img/bg-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    height: 766px;
+}
+
+.Header-slogan{
+    color: #00378A;
+    font-size: 32px;
+}
+
+.MainMenu{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.MainMenu-list{
+    list-style-type: none;
+    padding: 15px;
+    padding-top: 25px;
+    margin: 0;
+}
+
+.MainMenu-item{
+    
+}
+
+.MainMenu-link{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    font-style: italic;
+}
