@@ -68,6 +68,11 @@ body{
     font-size: 25px;
     font-style: italic;
 }
+@media(max-width:500px){
+    .MainMenu-link{
+        font-size: 20px;
+    }
+}
 .nosotros-imagenCabecera{
     width: 100%;
     height: auto;
@@ -79,6 +84,12 @@ body{
 }
 .nosotros-valores{
     display: flex;
+    justify-content: space-around;
+}
+@media(max-width:500px){
+    .nosotros-valores{
+        flex-direction: column;
+    }
 }
 .nosotros-vision{
     padding: 15px;
@@ -137,6 +148,7 @@ body{
 .servicios-container{
     display: flex;
 }
+
 .servicios-senales{
     background-image: url(../img/senales.jpg);
     background-size: cover;
@@ -188,6 +200,15 @@ body{
     background-color: rgba(0,0,0,0.5);
     padding: 15px;
 }
+@media(max-width:600px){
+    .servicios-container{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .servicios-semaforizacion{
+        height: 300px;
+    }
+}
 .Contacto{
     background: #888888;
 }
@@ -204,6 +225,14 @@ body{
     flex-direction: column;
     width: 50%;
     margin: auto;  
+}
+@media(max-width:500px){
+    .contacto-imagen{
+        width: 20%;
+    }
+    .contacto-formulario{
+        width: 90%;
+    }
 }
 .contacto-formulario-item{
     background-color: #333;
@@ -254,6 +283,12 @@ body{
 .Footer-container{
     display: flex;
     justify-content: space-between;
+}
+@media(max-width:500px){
+    .Footer-container{
+        justify-content: center;
+        flex-direction: column;
+    }
 }
 .Footer-itemInfo{
     text-align: center;
