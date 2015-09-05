@@ -263,3 +263,7 @@ body{
     justify-content: space-between;
     margin-top: 40px;
 }
+
+.wow:first-child {
+    visibility: hidden;
+}
