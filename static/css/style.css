@@ -298,3 +298,9 @@ body{
     justify-content: space-between;
     margin-top: 40px;
 }
+
+@media(max-width:400px){
+    .Footer{
+        font-size: 14px;
+    }
+}
