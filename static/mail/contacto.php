@@ -13,7 +13,7 @@ $email_address = $_POST['email'];
 $phone = $_POST['telefono'];
 $message = $_POST['mensaje'];
 	
-$to = 'zero@grafmex.com'; 
+$to = 'svyp_cruz@hotmail.com'; 
 $email_subject = "Formulario Señales Viales:  $name";
 $email_body = "Un cliente busca contactarse\n\n"."Detalles:\nNombre: $name\nEmail: $email_address\nTelefono: $phone\nMensaje:\n$message";
 $headers = "From: noreply@senalesvyp.com\n";
