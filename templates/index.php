@@ -5,6 +5,7 @@
     <meta name="description" content="Somos una empresa ubicada en la ciudad de Guadalupe, Nuevo León, especializada en el campo de la señalizacion vial, semaforización, asi como también en publicidad.  En Señales Viales y Publicidad, nos complacemos en atender a todos nuestros clientes con la mejor actitud de servicio, siendo proveedores de un producto de primera clase, con precios accesibles e inmejorables. Trabajamos con material de la mejor calidad, tambien contamos con un equipo de trabajo siempre dispuesto a producir productos qe excedan las expectativas de cada cliente." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Señales Viales</title>
+    <link rel="shortcut icon" href="../static/img/favicon.png" />
     <link href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../static/css/normalize.css"/>
     <link rel="stylesheet" href="../static/css/style.css" />
@@ -31,7 +32,7 @@
         </nav>
         <div class="container-slogan">
             <img src="../static/img/logo.png" alt="imagen-logotipo" class="header-logo"/>
-            <span class="Header-slogan">Dalo por hecho...</span>
+            <span class="Header-slogan">Consideralo hecho...</span>
         </div>
     </header>
     <section class="Nosotros" id="nosotros">
@@ -98,7 +99,7 @@
         <div class="Footer-container">
             <article class="Footer-itemInfo">
                 <h3>Dirección</h3>
-                <p>Calle Valencia Guadalupe Nuevo Leon</p>
+                <p>Calle Valencia Guadalupe Nuevo León</p>
             </article>
             <article class="Footer-itemInfo">
                 <h3>Email</h3>
