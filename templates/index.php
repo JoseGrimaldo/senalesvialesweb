@@ -85,12 +85,12 @@
             <h1 class="u-tituloSeccion">Contacto</h1>
         </header>
         <img src="../static/img/sobre.png" class="contacto-imagen" alt="contactoImagen">
-        <form class="contacto-formulario">
-            <input type="text" placeholder="Nombre *" class="contacto-formulario-item" />
-            <input type="tel" placeholder="Teléfono *" class="contacto-formulario-item" />
-            <input type="email" placeholder="Email *" class="contacto-formulario-item" />
-            <textarea rows="2" placeholder="Mensaje *" class="contacto-formulario-texto"></textarea>
-            <button type="submit" class="contacto-formulario-submit">Enviar Mensaje</button>
+        <form class="contacto-formulario" action="../static/mail/contacto.php" method="post">
+            <input id="nombre" name="nombre" type="text" placeholder="Nombre *" class="contacto-formulario-item" />
+            <input id="telefono" name="telefono" type="tel" placeholder="Teléfono *" class="contacto-formulario-item" />
+            <input id="email"type="email" name="email" placeholder="Email *" class="contacto-formulario-item" />
+            <textarea id="mensaje" name="mensaje" rows="2" placeholder="Mensaje *" class="contacto-formulario-texto"></textarea>
+            <button type="submit" name="submit" class="contacto-formulario-submit">Enviar Mensaje</button>
         </form>
     </section>
     <section id="map" class="map"></section>
