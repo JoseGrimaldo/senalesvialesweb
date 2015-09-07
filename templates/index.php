@@ -85,7 +85,7 @@
             <h1 class="u-tituloSeccion">Contacto</h1>
         </header>
         <img src="../static/img/sobre.png" class="contacto-imagen" alt="contactoImagen">
-        <form class="contacto-formulario" action="../static/mail/contacto.php" method="post">
+        <form name="sentMessage" class="contacto-formulario" action="../static/mail/contacto.php" method="post">
             <input id="nombre" name="nombre" type="text" placeholder="Nombre *" class="contacto-formulario-item" />
             <input id="telefono" name="telefono" type="tel" placeholder="Teléfono *" class="contacto-formulario-item" />
             <input id="email"type="email" name="email" placeholder="Email *" class="contacto-formulario-item" />

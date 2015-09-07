@@ -14,10 +14,13 @@ $phone = $_POST['telefono'];
 $message = $_POST['mensaje'];
 	
 $to = 'zero@grafmex.com'; 
-$email_subject = "Website Contact Form:  $name";
+$email_subject = "Formulario Señales Viales:  $name";
 $email_body = "Un cliente busca contactarse\n\n"."Detalles:\nNombre: $name\nEmail: $email_address\nTelefono: $phone\nMensaje:\n$message";
 $headers = "From: noreply@senalesvyp.com\n";
 $headers .= "Reply-To: $email_address";	
 mail($to,$email_subject,$email_body,$headers);
-return true;			
+echo "<script>
+alert('Mensaje Enviado');
+window.location='http://www.senalesvyp.com';
+</script>";
 ?>
