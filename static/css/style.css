@@ -289,13 +289,13 @@ body{
     display: flex;
     justify-content: space-between;
 }
-@media(max-width:500px){
+@media(max-width:900px){
     .Footer-container{
         justify-content: center;
         flex-direction: column;
     }
 }
-.Footer-itemInfo{
+.Footer-itemInfo h3, p{
     text-align: center;
 }
 .Footer-developer{

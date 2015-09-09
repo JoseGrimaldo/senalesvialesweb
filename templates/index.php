@@ -2,9 +2,17 @@
 <html lang="es">
 <head>
     <meta charset="utf-8" />
-    <meta name="description" content="Somos una empresa ubicada en la ciudad de Guadalupe, Nuevo León, especializada en el campo de la señalizacion vial, semaforización, asi como también en publicidad.  En Señales Viales y Publicidad, nos complacemos en atender a todos nuestros clientes con la mejor actitud de servicio, siendo proveedores de un producto de primera clase, con precios accesibles e inmejorables. Trabajamos con material de la mejor calidad, tambien contamos con un equipo de trabajo siempre dispuesto a producir productos qe excedan las expectativas de cada cliente." />
+    <meta name="description" content="Somos una empresa ubicada en la ciudad de Apodaca, Nuevo León, especializada en el campo de la señalizacion vial, semaforización, asi como también en publicidad.  En Señales Viales y Publicidad, nos complacemos en atender a todos nuestros clientes con la mejor actitud de servicio, siendo proveedores de un producto de primera clase, con precios accesibles e inmejorables. Trabajamos con material de la mejor calidad, tambien contamos con un equipo de trabajo siempre dispuesto a producir productos qe excedan las expectativas de cada cliente." />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Señales Viales</title>
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', 'UA-67385512-1', 'auto');
+        ga('send', 'pageview');
+    </script>
     <link rel="shortcut icon" href="../static/img/favicon.png" />
     <link href='https://fonts.googleapis.com/css?family=Raleway:200' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="../static/css/normalize.css"/>
@@ -41,7 +49,7 @@
             <img src="../static/img/nosotros-header.jpg" alt="header-nosotros" class="nosotros-imagenCabecera">
         </header>
         <article class="nosotros-informacion">
-            <p>Somos una empresa ubicada en la ciudad de Guadalupe, Nuevo León, especializada en el campo de la señalización vial, semaforización, así como también en publicidad. En Señales Viales y Publicidad, nos complacemos en atender a todos nuestros clientes con la mejor actitud de servicio, siendo proveedores de un producto de primera clase, con precios accesibles e inmejorables. Trabajamos con material de la mejor calidad, también contamos con un equipo de trabajo siempre dispuesto a producir productos que excedan las expectativas de cada cliente.</p>
+            <p>Somos una empresa ubicada en la ciudad de Apodaca, Nuevo León, especializada en el campo de la señalización vial, semaforización, así como también en publicidad. En Señales Viales y Publicidad, nos complacemos en atender a todos nuestros clientes con la mejor actitud de servicio, siendo proveedores de un producto de primera clase, con precios accesibles e inmejorables. Trabajamos con material de la mejor calidad, también contamos con un equipo de trabajo siempre dispuesto a producir productos que excedan las expectativas de cada cliente.</p>
         </article>
         <div class="nosotros-valores wow bounceInLeft" >
             <article class="nosotros-mision">
@@ -99,7 +107,7 @@
         <div class="Footer-container">
             <article class="Footer-itemInfo">
                 <h3>Dirección</h3>
-                <p>Calle Valencia Guadalupe Nuevo León</p>
+                <p>Calle Alcanfor #541, Apodaca, Nuevo León</p>
             </article>
             <article class="Footer-itemInfo">
                 <h3>Email</h3>
