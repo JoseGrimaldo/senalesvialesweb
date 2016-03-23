@@ -26,12 +26,21 @@ p{
 body{
     background: whitesmoke;
 }
+
+.top-icon{
+    position: fixed;
+    color: whitesmoke;
+    right: 0;
+    z-index: 1;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
 .Header{
     background-image: url(../img/bg-header.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;    
     height: 100vh;
+    z-index: 2;
 }
 .Header-slogan{
     display: block;
